@@ -1,0 +1,72 @@
+.mentions {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem 2rem 2rem; /* Ajout d'espace en haut */
+}
+
+.mentions h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0 auto 0.5rem auto; 
+}
+
+.underline {
+  width: 300px;
+  height: 4px;
+  background-color: royalblue;
+  margin: 0 auto 2rem auto;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Bloc principal */
+.legal-section {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+/* Résumé */
+.legal-section summary {
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  list-style: none;
+  position: relative;
+  transition: background-color 0.3s ease;
+  border-left: 5px solid transparent;
+}
+
+/* Triangle personnalisé */
+.legal-section summary::before {
+  content: "▸";
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Rotation triangle si ouvert */
+.legal-section[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Style appliqué uniquement au résumé actif */
+.legal-section[open] summary {
+  background-color: #dbe8ff;
+  border-left: 5px solid royalblue;
+}
+
+/* Contenu intérieur */
+.legal-section div {
+  padding: 1rem;
+  background-color: #fdfdfd;
+}
+
+/* Lien */
+.legal-section a {
+  color: royalblue;
+  text-decoration: underline;
+}

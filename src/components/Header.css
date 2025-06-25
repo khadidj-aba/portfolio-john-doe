@@ -1,0 +1,35 @@
+/* Header principal */
+.header {
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* Liens de navigation */
+.nav-link {
+
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  transition: all 0.3s ease;
+}
+
+/* Effet au survol */
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Lien actif (page actuelle) */
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}

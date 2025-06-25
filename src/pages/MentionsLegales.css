@@ -1,0 +1,39 @@
+.legal-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.legal-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.legal-section summary {
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.legal-section p,
+.legal-section a {
+  font-size: 1rem;
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.legal-section a {
+  color: #006aff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.legal-section a:hover {
+  text-decoration: underline;
+}
+
