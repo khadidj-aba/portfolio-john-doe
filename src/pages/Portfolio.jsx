@@ -1,3 +1,4 @@
+import './Portfolio.css';
 import React from "react";
 import { Helmet } from "react-helmet";
 import freshFood from "../assets/images/fresh-food.jpg";
@@ -60,7 +61,7 @@ export default function Portfolio() {
         <title>Portfolio - John Doe</title>
         <meta name="description" content="Découvrez les projets réalisés par John Doe." />
       </Helmet>
-      
+
       {/* Bannière en haut */}
       <div
         style={{
