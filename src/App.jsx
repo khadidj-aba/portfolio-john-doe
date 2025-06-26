@@ -17,7 +17,7 @@ function App() {
       <Header />
 
       <button className="btn-modal" onClick={() => setShowModal(true)}>
-        Voir mon profil GitHub
+        Voir mon GitHub
       </button>
 
       {showModal && <GithubModal onClose={() => setShowModal(false)} />}
