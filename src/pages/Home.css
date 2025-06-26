@@ -1,0 +1,16 @@
+.hero {
+    background-color: #333;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero h2 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  
