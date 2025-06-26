@@ -28,39 +28,3 @@ body {
   transform: scale(1.2);
   color: #ccc;
 }
-
-/* ====== Page Services ====== */
-
-/* Fond de la bannière */
-.banner-services {
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-}
-
-/* Titre principal en dehors de la bannière */
-.services-header {
-  background-color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-/* Ligne bleue sous le texte */
-.services-header .underline {
-  width: 100px;
-  height: 4px;
-  background-color: #006aff;
-  margin: 15px auto 0;
-}
-
-/* Cartes de service */
-.card-service {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  transition: transform 0.3s ease;
-}
-
-.card-service:hover {
-  transform: translateY(-5px);
-  border-color: #006aff;
-}

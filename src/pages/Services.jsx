@@ -1,3 +1,4 @@
+import './services.css';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import banner from '../assets/images/banner.jpg';
