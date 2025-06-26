@@ -11,7 +11,7 @@ const Mentions = () => {
       </Helmet>
 
       <section className="mentions">
-        <h1>Mentions légales</h1>
+        <h1>Mentions</h1>
         <hr className="underline" />
 
         {/* Éditeur du site */}
