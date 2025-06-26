@@ -18,12 +18,12 @@ function Contact() {
         {/* Formulaire de contact */}
         <div className="contact-form">
           <h3>Formulaire de contact</h3>
-          <form>
-            <input type="text" placeholder="Votre nom" required />
-            <input type="email" placeholder="Votre adresse email" required />
-            <input type="tel" placeholder="Votre numéro de téléphone" />
-            <input type="text" placeholder="Sujet" />
-            <textarea placeholder="Votre message" required></textarea>
+          <form method="post">
+            <input type="text" name="nom" placeholder="Votre nom" required />
+            <input type="email" name="email" placeholder="Votre adresse email" required />
+            <input type="tel" name="tel" placeholder="Votre numéro de téléphone" />
+            <input type="text" name="text" placeholder="Sujet" />
+            <textarea name="message" placeholder="Votre message" required></textarea>
             <button type="submit">Envoyer</button>
           </form>
         </div>
